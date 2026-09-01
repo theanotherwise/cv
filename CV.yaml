@@ -38,7 +38,7 @@ cv:
         location: Poland
         start_date: 2025-07
         end_date: present
-        summary: Build Homearo.app, a real-estate portal, and Opsolving.AI for AI analysis and n8n-style process automation. Own Go APIs, Vue 3 user dashboards, Nuxt 4 SSR, and GCP/GKE plus OVH RKE2/Cilium operations with Argo CD, Airflow, Loki/Alloy, and Cloudflare.
+        summary: Build Homearo.app, a real-estate portal, and Opsolving.AI for AI analysis and n8n-style process automation. Own Go APIs, Vue 3 user dashboards, Nuxt 4 SSR, and GCP/GKE plus OVH RKE2/Cilium/Longhorn v2 operations with Argo CD, Airflow, Loki/Alloy, and Cloudflare.
 
       - company: StoneX Poland
         position: Senior Observability Platform Engineer
