@@ -40,7 +40,7 @@ cv:
       - company: Presemantic
         position: CEO and Founder
         location: Poland
-        start_date: 2021-01
+        start_date: 2025-07
         end_date: present
         highlights:
           - Founded Presemantic and continue to build cloud-native products with GCP, GKE, Argo CD, GitHub Actions, and Apache Airflow.
@@ -62,7 +62,7 @@ cv:
         end_date: 2021-11
         highlights:
           - Designed an AWS compute farm scaling to 30,000 vCPUs for stock-market risk calculations.
-          - Automated Java delivery with Jenkins and uDeploy and operated Flink, Airflow, Prometheus, Grafana, and OpenShift workloads.
+          - Built and operated Apache Flink infrastructure on OpenShift to process top-10 Value at Risk (VaR) results; automated Java delivery with Jenkins/uDeploy and ran Airflow, Prometheus, and Grafana.
 
       - company: IT Touch - TVN project
         position: IT Consultant
@@ -70,8 +70,8 @@ cv:
         start_date: 2021-01
         end_date: 2021-06
         highlights:
-          - Operated AWS and EKS infrastructure, Direct Connect, VPN, EC2, Auto Scaling, and load balancing for player.pl.
-          - Managed Jenkins and automated New Relic observability configuration and delivery with Terraform.
+          - Built and operated player.pl infrastructure with AWS VPN, EC2, Auto Scaling Groups, EKS, Aurora PostgreSQL, load balancers, and Cloudflare.
+          - Managed the estate and New Relic observability end to end with Terraform and operated Jenkins CI/CD.
 
       - company: Applica
         position: DevOps Engineer
@@ -79,8 +79,8 @@ cv:
         start_date: 2020-05
         end_date: 2020-12
         highlights:
-          - Built AWS, Azure, and OKD infrastructure for AI document-processing workloads using Terraform and Ansible.
-          - Migrated GitLab from a VM to Kubernetes and operated GitLab CI, Elastic, Grafana, Keycloak, databases, DGX systems, and 500 TB ZFS storage.
+          - Built AWS EKS, Azure AKS, and OKD 3.9/3.11 infrastructure for AI document-processing workloads with Terraform and Ansible.
+          - Migrated GitLab from a VM to Kubernetes and operated GitLab CI, Elastic, Grafana, Keycloak, PostgreSQL, DGX systems, and 500 TB ZFS storage.
 
       - company: IRGiT
         position: Junior Administrator to Senior Specialist
@@ -88,13 +88,13 @@ cv:
         start_date: 2017-07
         end_date: 2020-04
         highlights:
-          - Progressed through four roles operating regulated financial systems on RHEL, VMware, Oracle RAC, PostgreSQL/MySQL, PKI, storage, Zabbix, and Elastic.
+          - Progressed through four roles operating regulated financial systems on RHEL, VMware, Oracle RAC, PostgreSQL/MySQL, PKI, HPE 3PAR/StoreOnce, HPE Data Protector, Zabbix, and Elastic.
           - Automated systems with Puppet, Ansible, and Satellite and built Rails tooling that replaced manual stock-market risk calculations.
 
     Selected Achievements:
       - Migrated observability data at 400 TB per week while preserving service continuity and cutting parser configuration by 60%.
       - Built Kubernetes-native self-service delivery with automated CI/CD, image builds, Helm, and Crossplane infrastructure provisioning.
-      - Recovered failed OKD clusters, diagnosed intermittent CNI failures down to physical switch firmware, and executed multi-cloud backup and restore with Velero and Kopia.
+      - Recovered failed OKD 3.9 and 3.11 clusters multiple times, restoring control planes and production workloads after certificate and infrastructure failures.
       - Tuned extreme JVM workloads, including a 200 GB ZGC heap sustaining 10-15 GB/s allocation rates.
       - Responsibly disclosed high-impact security issues, including infrastructure takeover paths, large data exposure, order replay, and race conditions.
 
@@ -104,7 +104,7 @@ cv:
       - label: Delivery and automation
         details: Terraform, Terragrunt, Ansible, Puppet, Argo CD, Argo Workflows, Helm, Crossplane, GitHub Actions, GitLab CI, Jenkins
       - label: Networking and security
-        details: Istio, Kyverno, Akamai WAF, Cloudflare, gateways, PKI, VPN, network policy
+        details: Istio Mesh, Kyverno, Akamai WAF, Cloudflare, gateways, PKI, VPN, network policy
       - label: Observability and data
         details: OpenSearch, Elasticsearch/ECK, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink
       - label: Distributed systems
