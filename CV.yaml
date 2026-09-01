@@ -44,7 +44,7 @@ cv:
         end_date: present
         highlights:
           - Founded Presemantic and continue to build cloud-native products with GCP, GKE, Argo CD, GitHub Actions, and Apache Airflow.
-          - "Own the complete stack: Python APIs, Vue and Nuxt SSR frontends, Cloudflare delivery, data pipelines, and production operations."
+          - "Own the complete stack: Go APIs, authenticated Vue 3 user applications, Nuxt 4 SSR public sites optimized for SEO, Cloudflare delivery, data pipelines, and production operations."
 
       - company: StoneX Poland
         position: Senior Observability Platform Engineer
