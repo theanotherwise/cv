@@ -1,4 +1,4 @@
-name: Build CV tag
+name: CV
 
 on:
   push:
@@ -13,19 +13,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    name: Render PDF
+  verify:
+    name: Verify
     runs-on: ubuntu-24.04
     timeout-minutes: 10
 
     steps:
-      - name: Check out repository
+      - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ github.ref }}
           persist-credentials: false
 
-      - name: Validate CV tag
+      - name: Verify
         env:
           CV_TAG: ${{ github.ref_name }}
         run: |
@@ -51,6 +51,19 @@ jobs:
             exit 1
           fi
 
+  build:
+    name: Build
+    needs: verify
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref }}
+          persist-credentials: false
+
       - name: Install uv
         uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
         with:
@@ -60,7 +73,7 @@ jobs:
       - name: Install Python
         run: uv python install 3.13
 
-      - name: Build CV
+      - name: Build
         run: |
           mkdir -p output/pdf
           uvx \
@@ -74,7 +87,7 @@ jobs:
             --dont-generate-png
           test -s output/pdf/cv.pdf
 
-      - name: Upload PDF
+      - name: Upload
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: cv-pdf
