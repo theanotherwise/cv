@@ -77,7 +77,7 @@ cv:
 
     Selected Achievements:
       - Migrated 1,100+ servers from CentOS 7 to Rocky Linux 9 in 1.5 months; built Kubernetes self-service delivery with CI/CD, Helm, and Crossplane; repeatedly recovered failed OKD 3.9/3.11 clusters.
-      - Tuned a 200 GB ZGC heap sustaining 10-15 GB/s allocation rates; responsibly disclosed infrastructure takeover paths, large data exposure, order replay, and race conditions.
+      - Tuned a 200 GB G1GC heap sustaining 10-15 GB/s allocation rates; responsibly disclosed infrastructure takeover paths, large data exposure, order replay, and race conditions.
 
     Core Skills:
       - label: Cloud and platforms
