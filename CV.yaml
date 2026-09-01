@@ -120,10 +120,18 @@ cv:
         location: Lublin, Poland
         start_date: 2014
         end_date: 2017
+      - institution: Maria Curie-Sklodowska University
+        area: Cognitive Science
+        degree: Coursework
+        location: Lublin, Poland
+        start_date: 2013
+        end_date: 2016
 
     Training and Certifications:
       - label: Red Hat
-        details: EX200 Red Hat Certified System Administrator, 2017 (expired)
+        details: EX200 Red Hat Certified System Administrator, 2017
+      - label: FinOps
+        details: FinOps Training, May 2026
       - label: Linux Foundation
         details: LFS416 Linux Security and LFS426 Linux Performance, 2019
       - label: Security
