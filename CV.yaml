@@ -24,7 +24,7 @@ cv:
         location: Azure, GCP, on-prem
         start_date: 2022-12
         end_date: present
-        summary: Operate 50,000+ cloud and 4,000 VMware vCPUs; reduced CPU overcommitment, modernized OKD/GKE, built an Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, tuned Redis/RabbitMQ/Elasticsearch, and created SilkyPulse, the AI-agent RCA system that became Opsolving.AI.
+        summary: Operate 50,000+ cloud and 4,000 VMware vCPUs; reduced CPU overcommitment in VMware, modernized OKD/GKE, designed an Argo CD and Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, tuned Redis/RabbitMQ/Elasticsearch, and created SilkyPulse, the AI-agent RCA system that became Opsolving.AI.
 
       - company: EITT and NobleProg
         position: Kubernetes, Cloud, Service Mesh, and Observability Trainer
