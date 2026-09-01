@@ -1,18 +1,153 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 
 cv:
-  name: CV Build Template
-  headline: RenderCV pipeline validation document
+  name: Mateusz Adam Katana
+  headline: Senior Platform and DevOps Engineer | Cloud Native, Observability, Performance
+  location: Poland
+  email: mateusz.adam.katana@gmail.com
+  phone: +48 513 042 792
+  website: https://theanotherwise.com
+  social_networks:
+    - network: LinkedIn
+      username: theanotherwise
+    - network: GitHub
+      username: theanotherwise
+
   sections:
-    Build status:
-      - This temporary document confirms that the version-controlled CV source can be rendered to PDF locally and in GitHub Actions.
-      - Personal details, experience, education, and project history will be added in a later revision.
+    Profile:
+      - Senior platform and DevOps engineer with experience spanning regulated on-prem systems, hyperscale cloud, Kubernetes, observability, e-commerce performance, developer platforms, and technical training. I design maintainable systems, automate delivery, and solve production problems from infrastructure to application runtime.
+
+    Experience:
+      - company: Silky Coders for LPP
+        position: Senior DevOps Engineer
+        location: Azure, GCP, on-prem
+        start_date: 2022-12
+        end_date: present
+        highlights:
+          - Operate 50,000+ cloud vCPUs and 4,000 VMware vCPUs for major European e-commerce brands.
+          - Modernized OKD/GKE and built Kubernetes platforms with Argo CD, Helm, Argo Workflows, and Kyverno.
+          - Scaled OpenSearch/ECK to 100k-500k messages/s and tuned gateways, Redis, RabbitMQ, and JVMs for peak traffic.
+
+      - company: EITT and NobleProg
+        position: Kubernetes, Cloud, Service Mesh, and Observability Trainer
+        location: Poland
+        start_date: 2022-12
+        end_date: present
+        highlights:
+          - Deliver practical training on Kubernetes, AWS, GCP, service mesh, ELK/OpenSearch, Prometheus, Grafana, Alertmanager, and New Relic.
+          - Turn production experience into workshops focused on reliability, performance, security, and day-to-day operations.
+
+      - company: Presemantic
+        position: CEO and Founder
+        location: Poland
+        start_date: 2021-01
+        end_date: present
+        highlights:
+          - Founded Presemantic and continue to build cloud-native products with GCP, GKE, Argo CD, GitHub Actions, and Apache Airflow.
+          - "Own the complete stack: Python APIs, Vue and Nuxt SSR frontends, Cloudflare delivery, data pipelines, and production operations."
+
+      - company: StoneX Poland
+        position: Senior Observability Platform Engineer
+        location: Azure and on-prem
+        start_date: 2021-12
+        end_date: 2022-11
+        highlights:
+          - Led a Logz.io to OpenSearch migration in three months, processing and reindexing 400 TB per week without service interruption.
+          - Reduced parser configuration from 30k to 12k lines; automated delivery and operated Rancher/RKE1, Longhorn, Istio, Azure, Prometheus, Grafana, and Airflow while leading two engineers.
+
+      - company: GS Services - Citi Bank project
+        position: DevOps Engineer
+        location: AWS
+        start_date: 2021-06
+        end_date: 2021-11
+        highlights:
+          - Designed an AWS compute farm scaling to 30,000 vCPUs for stock-market risk calculations.
+          - Automated Java delivery with Jenkins and uDeploy and operated Flink, Airflow, Prometheus, Grafana, and OpenShift workloads.
+
+      - company: IT Touch - TVN project
+        position: IT Consultant
+        location: AWS
+        start_date: 2021-01
+        end_date: 2021-06
+        highlights:
+          - Operated AWS and EKS infrastructure, Direct Connect, VPN, EC2, Auto Scaling, and load balancing for player.pl.
+          - Managed Jenkins and automated New Relic observability configuration and delivery with Terraform.
+
+      - company: Applica
+        position: DevOps Engineer
+        location: AWS, Azure, on-prem
+        start_date: 2020-05
+        end_date: 2020-12
+        highlights:
+          - Built AWS, Azure, and OKD infrastructure for AI document-processing workloads using Terraform and Ansible.
+          - Migrated GitLab from a VM to Kubernetes and operated GitLab CI, Elastic, Grafana, Keycloak, databases, DGX systems, and 500 TB ZFS storage.
+
+      - company: IRGiT
+        position: Junior Administrator to Senior Specialist
+        location: On-prem
+        start_date: 2017-07
+        end_date: 2020-04
+        highlights:
+          - Progressed through four roles operating regulated financial systems on RHEL, VMware, Oracle RAC, PostgreSQL/MySQL, PKI, storage, Zabbix, and Elastic.
+          - Automated systems with Puppet, Ansible, and Satellite and built Rails tooling that replaced manual stock-market risk calculations.
+
+    Selected Achievements:
+      - Migrated observability data at 400 TB per week while preserving service continuity and cutting parser configuration by 60%.
+      - Built Kubernetes-native self-service delivery with automated CI/CD, image builds, Helm, and Crossplane infrastructure provisioning.
+      - Recovered failed OKD clusters, diagnosed intermittent CNI failures down to physical switch firmware, and executed multi-cloud backup and restore with Velero and Kopia.
+      - Tuned extreme JVM workloads, including a 200 GB ZGC heap sustaining 10-15 GB/s allocation rates.
+      - Responsibly disclosed high-impact security issues, including infrastructure takeover paths, large data exposure, order replay, and race conditions.
+
+    Core Skills:
+      - label: Cloud and platforms
+        details: GCP, Azure, AWS, VMware, Linux, Kubernetes, OKD, GKE, RKE, Rancher
+      - label: Delivery and automation
+        details: Terraform, Terragrunt, Ansible, Puppet, Argo CD, Argo Workflows, Helm, Crossplane, GitHub Actions, GitLab CI, Jenkins
+      - label: Networking and security
+        details: Istio, Kyverno, Akamai WAF, Cloudflare, gateways, PKI, VPN, network policy
+      - label: Observability and data
+        details: OpenSearch, Elasticsearch/ECK, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink
+      - label: Distributed systems
+        details: Redis, RabbitMQ, Kafka, Redpanda, PostgreSQL, MySQL, Oracle RAC, Java performance
+
+    Education:
+      - institution: Maria Curie-Sklodowska University
+        area: Information Technology
+        degree: Bachelor
+        location: Lublin, Poland
+        start_date: 2014
+        end_date: 2017
+
+    Training and Certifications:
+      - label: Red Hat
+        details: EX200 Red Hat Certified System Administrator, 2017 (expired)
+      - label: Linux Foundation
+        details: LFS416 Linux Security and LFS426 Linux Performance, 2019
+      - label: Security
+        details: REST API Security, IT Incident Forensics, Advanced Web Application Security, Security PWNing Conference
+
+    Languages and Additional Information:
+      - label: Languages
+        details: Polish (native), English (professional working proficiency)
+      - label: Other
+        details: Driving licence A and B; climbing, mountains, hiking, photography, methodology, and shooting sports
+
+    Data Processing Consent:
+      - I consent to the processing of my personal data for purposes necessary to conduct the recruitment process.
 
 design:
   theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+    left_margin: 0.55in
+    right_margin: 0.55in
+    show_footer: true
+    show_top_note: false
 
 locale:
   language: english
 
 settings:
-  pdf_title: CV build template
+  pdf_title: Mateusz Adam Katana - Curriculum Vitae

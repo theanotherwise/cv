@@ -6,7 +6,7 @@ This repository stores a version-controlled CV source and the automation require
 
 ## Structure
 
-- [`CV.yaml`](./CV.yaml) is the stable RenderCV input file. Replace its temporary content when the real CV data is available, but keep the filename stable unless all build references are updated.
+- [`CV.yaml`](./CV.yaml) is the stable, concise RenderCV source for the real curriculum vitae. Keep each experience entry focused on measurable scope and outcomes and limited to roughly five rendered lines on A4.
 - [`.github/workflows/build-cv.yaml`](./.github/workflows/build-cv.yaml) contains the `Verify`, `Build`, and `Push` jobs. It runs only when a matching CV tag is pushed; `Build` depends on `Verify`, and `Push` publishes the generated artifact only after `Build` succeeds.
 - [`output/pdf`](./output/pdf) is the ignored generated-output location.
 
