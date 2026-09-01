@@ -67,7 +67,7 @@ jobs:
             --from 'rendercv[full]==2.8' \
             rendercv render CV.yaml \
             --pdf-path output/pdf/cv.pdf \
-            --dont-generate-typst \
+            --typst-path output/pdf/cv.typ \
             --dont-generate-markdown \
             --dont-generate-html \
             --dont-generate-png

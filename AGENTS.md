@@ -12,7 +12,7 @@ This repository stores a version-controlled CV source and the automation require
 
 ## Execution Model
 
-The pushed tag must use `cv-YYYY-MM-DD-abcdef0`, where the final seven lowercase hexadecimal characters equal the short SHA of the commit referenced by the tag. GitHub Actions checks out that tag, validates its format and commit suffix, installs `uv` and Python 3.13, then uses the exact `rendercv[full]==2.8` package version to render `output/pdf/cv.pdf` and upload it as the `cv-pdf` workflow artifact.
+The pushed tag must use `cv-YYYY-MM-DD-abcdef0`, where the final seven lowercase hexadecimal characters equal the short SHA of the commit referenced by the tag. GitHub Actions checks out that tag, validates its format and commit suffix, installs `uv` and Python 3.13, then uses the exact `rendercv[full]==2.8` package version to render `output/pdf/cv.pdf` and upload it as the `cv-pdf` workflow artifact. The required intermediate Typst source is kept under the ignored `output/pdf` directory and is not uploaded.
 
 To build the current commit, create and push a tag with `cv_tag="cv-$(date +%F)-$(git rev-parse --short=7 HEAD)"`, `git tag "${cv_tag}"`, and `git push origin "${cv_tag}"`. Pushing that tag is the only supported build trigger.
 
