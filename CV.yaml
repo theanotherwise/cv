@@ -39,15 +39,15 @@ cv:
           - Deliver training on Kubernetes, AWS/GCP cloud platforms, logging systems (ELK, OpenSearch), service mesh with Istio, observability (Grafana, Prometheus, Thanos, Alertmanager), and New Relic.
           - Run workshops focused on platform management, operational best practices, and effective day-to-day operations.
 
-      - company: Presemantic
-        position: CEO and Founder
+      - company: Presemantic - Homearo.app, Opsolving.AI
+        position: Founder
         location: Poland
         start_date: 2025-07
         end_date: present
         highlights:
-          - Founded Presemantic and build products on GCP/GKE with Argo CD, GitHub Actions, and Airflow.
-          - "Own the complete stack: Go APIs, a Vue 3 user space with dedicated user dashboards, and Nuxt 4 SSR public sites optimized for SEO."
-          - Operate an OVH RKE2 cluster with Cilium networking and Loki/Alloy observability, plus Cloudflare delivery, data pipelines, and production operations.
+          - Build Homearo.app, a real-estate portal, and Opsolving.AI for AI-powered analysis and n8n-style process automation.
+          - Own Go APIs, Vue 3 user dashboards, and Nuxt 4 SSR public sites optimized for SEO.
+          - Operate GCP/GKE and OVH RKE2/Cilium with Argo CD, Airflow, Loki/Alloy, Cloudflare, and production data pipelines.
 
       - company: StoneX Poland
         position: Senior Observability Platform Engineer
@@ -56,7 +56,7 @@ cv:
         end_date: 2022-11
         highlights:
           - Led a Logz.io to OpenSearch migration in three months at 400 TB per week, wrote a parser converting Logz.io rules to Logstash, and led two engineers.
-          - Deployed Azure AKS and operated Rancher/RKE1, Longhorn, Istio, Prometheus/Grafana, Airflow, and TeamCity/Octopus delivery.
+          - Deployed Azure AKS and operated Rancher/RKE1, Longhorn v1 (when some failure modes could destroy data), Istio, Prometheus/Grafana, Airflow, and TeamCity/Octopus delivery.
 
       - company: GS Services - Citi Bank project
         position: DevOps Engineer
