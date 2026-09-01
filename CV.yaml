@@ -24,7 +24,7 @@ cv:
         location: Azure, GCP, on-prem
         start_date: 2022-12
         end_date: present
-        summary: Operate 50,000+ cloud and 4,000 VMware vCPUs; reduced CPU overcommitment in VMware, modernized OKD/GKE, automated operations with Ansible, designed an Argo CD and Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, tuned Redis/RabbitMQ/Elasticsearch, and created SilkyPulse, the AI-agent RCA system that became Opsolving.AI.
+        summary: Operate 50,000+ cloud and 4,000 VMware vCPUs; reduced CPU overcommitment in VMware, modernized OKD/GKE, automated operations with Ansible, designed an Argo CD and Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, deployed and operated Kafka/Redpanda, tuned Redis/RabbitMQ/Elasticsearch, and created SilkyPulse, the AI-agent RCA system that became Opsolving.AI.
 
       - company: EITT and NobleProg
         position: Kubernetes, Cloud, Service Mesh, and Observability Trainer
@@ -38,14 +38,14 @@ cv:
         location: Poland
         start_date: 2025-07
         end_date: present
-        summary: Build Homearo.app, a real-estate portal, and Opsolving.AI for AI analysis and n8n-style process automation. Own Go APIs, Vue 3 user dashboards, Nuxt 4 SSR, and GCP/GKE plus OVH RKE2/Cilium/Longhorn v2 operations with Ansible, Argo CD, Airflow, Loki/Alloy, and Cloudflare.
+        summary: Build Homearo.app, a real-estate portal, and Opsolving.AI for AI analysis and n8n-style process automation. Own Go APIs, Vue 3 user dashboards, Nuxt 4 SSR, and GCP/GKE plus OVH RKE2/Cilium/Longhorn v2 operations with Ansible, Argo CD, Airflow, Loki/Alloy, and Cloudflare; deploy and operate Kafka/Redpanda.
 
       - company: StoneX Poland
         position: Senior Observability Platform Engineer
         location: Azure and on-prem
         start_date: 2021-12
         end_date: 2022-11
-        summary: Led a Logz.io-to-OpenSearch migration at 400 TB per week in three months, wrote a Logz.io-to-Logstash parser, and led two engineers. Deployed Azure AKS, automated platform operations with Ansible, and managed Rancher/RKE1, Longhorn v1 (when some failure modes could destroy data), Istio, Prometheus/Grafana, Airflow, and TeamCity/Octopus.
+        summary: Led a Logz.io-to-OpenSearch migration at 400 TB per week in three months, wrote a Logz.io-to-Logstash parser, and led two engineers. Deployed Azure AKS, deployed and operated Kafka/Redpanda, automated platform operations with Ansible, and managed Rancher/RKE1, Longhorn v1 (when some failure modes could destroy data), Istio, Prometheus/Grafana, Airflow, and TeamCity/Octopus.
 
       - company: GS Services - Citi Bank project
         position: DevOps Engineer
