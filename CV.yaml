@@ -65,7 +65,7 @@ cv:
         end_date: 2021-11
         highlights:
           - Designed an AWS compute farm scaling to 30,000 vCPUs for stock-market risk calculations.
-          - Built and operated Apache Flink on OpenShift to calculate Value at Risk for ten major global currencies; automated Java delivery with Jenkins/uDeploy and ran Airflow, Prometheus, and Grafana.
+          - Built and operated Apache Flink on OpenShift to calculate Value at Risk for ten major global currencies; automated Java delivery with Jenkins/uDeploy, ran Airflow, and provided observability through Prometheus and Grafana.
 
       - company: IT Touch - TVN project
         position: IT Consultant
