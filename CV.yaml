@@ -24,9 +24,9 @@ cv:
         start_date: 2022-12
         end_date: present
         highlights:
-          - Operate 50,000+ cloud vCPUs and 4,000 VMware vCPUs for major European e-commerce brands.
-          - Modernized OKD/GKE and built Kubernetes platforms with Argo CD, Helm, Argo Workflows, and Kyverno.
-          - Scaled OpenSearch/ECK to 100k-500k messages/s; tuned Redis in standalone, master-replica, HA, and cluster modes, RabbitMQ through AMQProxy, and Elasticsearch 6.x for content serving.
+          - Operate 50,000+ cloud and 4,000 VMware vCPUs; reduced CPU overcommitment to improve VMware performance.
+          - Modernized OKD/GKE, built an Argo Workflows platform, and owned Delinea PAM architecture and rollout.
+          - Designed centralized logging for multiple Kubernetes clusters; tuned Redis in standalone, master-replica, HA, and cluster modes, RabbitMQ through AMQProxy, and Elasticsearch 6.x for content serving.
 
       - company: EITT and NobleProg
         position: Kubernetes, Cloud, Service Mesh, and Observability Trainer
@@ -43,8 +43,9 @@ cv:
         start_date: 2025-07
         end_date: present
         highlights:
-          - Founded Presemantic and continue to build cloud-native products with GCP, GKE, Argo CD, GitHub Actions, and Apache Airflow.
-          - "Own the complete stack: Go APIs, authenticated Vue 3 user applications, Nuxt 4 SSR public sites optimized for SEO, Cloudflare delivery, data pipelines, and production operations."
+          - Founded Presemantic and build products on GCP/GKE with Argo CD, GitHub Actions, and Airflow.
+          - "Own the complete stack: Go APIs, a Vue 3 user space with dedicated user dashboards, and Nuxt 4 SSR public sites optimized for SEO."
+          - Operate an OVH RKE2 cluster with Cilium networking and Loki/Alloy observability, plus Cloudflare delivery, data pipelines, and production operations.
 
       - company: StoneX Poland
         position: Senior Observability Platform Engineer
@@ -52,8 +53,8 @@ cv:
         start_date: 2021-12
         end_date: 2022-11
         highlights:
-          - Led a Logz.io to OpenSearch migration in three months, processing and reindexing 400 TB per week without service interruption.
-          - Reduced parser configuration from 30k to 12k lines; automated delivery and operated Rancher/RKE1, Longhorn, Istio, Azure, Prometheus, Grafana, and Airflow while leading two engineers.
+          - Led a Logz.io to OpenSearch migration in three months at 400 TB per week, wrote a parser converting Logz.io rules to Logstash, and led two engineers.
+          - Deployed Azure AKS and operated Rancher/RKE1, Longhorn, Istio, Prometheus/Grafana, Airflow, and TeamCity/Octopus delivery.
 
       - company: GS Services - Citi Bank project
         position: DevOps Engineer
@@ -62,7 +63,7 @@ cv:
         end_date: 2021-11
         highlights:
           - Designed an AWS compute farm scaling to 30,000 vCPUs for stock-market risk calculations.
-          - Built and operated Apache Flink infrastructure on OpenShift to process top-10 Value at Risk (VaR) results; automated Java delivery with Jenkins/uDeploy and ran Airflow, Prometheus, and Grafana.
+          - Built and operated Apache Flink on OpenShift to calculate Value at Risk for ten major global currencies; automated Java delivery with Jenkins/uDeploy and ran Airflow, Prometheus, and Grafana.
 
       - company: IT Touch - TVN project
         position: IT Consultant
@@ -79,8 +80,9 @@ cv:
         start_date: 2020-05
         end_date: 2020-12
         highlights:
-          - Built AWS EKS, Azure AKS, and OKD 3.9/3.11 infrastructure for AI document-processing workloads with Terraform and Ansible.
-          - Migrated GitLab from a VM to Kubernetes and operated GitLab CI, Elastic, Grafana, Keycloak, PostgreSQL, DGX systems, and 500 TB ZFS storage.
+          - Built EKS, AKS, and OKD 3.9/3.11 with Terraform/Ansible for an AI startup that was later acquired.
+          - Migrated GitLab from a standalone VM to EKS and operated GitLab CI, Elasticsearch, Grafana, Keycloak, PostgreSQL, and 500 TB ZFS storage.
+          - Installed and commissioned an NVIDIA DGX A100 in the data center and prepared a Kubespray deployment for the research team.
 
       - company: IRGiT
         position: Junior Administrator to Senior Specialist
@@ -88,7 +90,8 @@ cv:
         start_date: 2017-07
         end_date: 2020-04
         highlights:
-          - Progressed through four roles operating regulated financial systems on RHEL, VMware, Oracle RAC, PostgreSQL/MySQL, PKI, HPE 3PAR/StoreOnce, HPE Data Protector, Zabbix, and Elastic.
+          - Progressed through four roles operating regulated financial systems on RHEL, VMware, Oracle RAC, Oracle 11c, and smaller PostgreSQL/MySQL databases.
+          - Managed PKI through EJBCA, HPE 3PAR/StoreOnce, HPE Data Protector, Zabbix, and Elasticsearch.
           - Automated systems with Puppet, Ansible, and Satellite and built Rails tooling that replaced manual stock-market risk calculations.
 
     Selected Achievements:
@@ -106,9 +109,9 @@ cv:
       - label: Networking and security
         details: Istio Mesh, Kyverno, Akamai WAF, Cloudflare, gateways, PKI, VPN, network policy
       - label: Observability and data
-        details: OpenSearch, Elasticsearch/ECK, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink
+        details: OpenSearch, Elasticsearch/ECK, Loki, Alloy, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink
       - label: Distributed systems
-        details: Redis, RabbitMQ, Kafka, Redpanda, PostgreSQL, MySQL, Oracle RAC, Java performance
+        details: Redis, RabbitMQ, Kafka, Redpanda, PostgreSQL, MySQL, Java performance
 
     Education:
       - institution: Maria Curie-Sklodowska University
