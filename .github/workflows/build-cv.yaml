@@ -71,13 +71,13 @@ jobs:
           enable-cache: false
 
       - name: Install Python
-        run: uv python install 3.13
+        run: uv python install 3.14
 
       - name: Build
         run: |
           mkdir -p output/pdf
           uvx \
-            --python 3.13 \
+            --python 3.14 \
             --from 'rendercv[full]==2.8' \
             rendercv render CV.yaml \
             --pdf-path output/pdf/cv.pdf \
