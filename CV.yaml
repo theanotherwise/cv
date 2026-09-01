@@ -97,6 +97,7 @@ cv:
 
     Selected Achievements:
       - Migrated observability data at 400 TB per week while preserving service continuity and cutting parser configuration by 60%.
+      - Migrated more than 1,100 servers from CentOS 7 to Rocky Linux 9 in 1.5 months.
       - Built Kubernetes-native self-service delivery with automated CI/CD, image builds, Helm, and Crossplane infrastructure provisioning.
       - Recovered failed OKD 3.9 and 3.11 clusters multiple times, restoring control planes and production workloads after certificate and infrastructure failures.
       - Tuned extreme JVM workloads, including a 200 GB ZGC heap sustaining 10-15 GB/s allocation rates.
