@@ -110,7 +110,7 @@ jobs:
 
       - name: Push
         env:
-          API_KEY: ${{ secrets.THEANOTHERWISE_API_KEY }}
+          API_KEY: ${{ secrets.THEANOTHERWISE_COM_API_KEY }}
           COMMIT_SHA: ${{ github.sha }}
           CV_TAG: ${{ github.ref_name }}
           SOURCE_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
