@@ -31,15 +31,16 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [[ ! "${CV_TAG}" =~ ^cv-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9a-f]{7}$ ]]; then
+          if [[ ! "${CV_TAG}" =~ ^cv-[0-9]{12}-[0-9a-f]{7}$ ]]; then
             echo "Invalid CV tag: ${CV_TAG}" >&2
-            echo "Expected: cv-YYYY-MM-DD-abcdef0" >&2
+            echo "Expected: cv-YYMMDDHHMMSS-abcdef0" >&2
             exit 1
           fi
 
-          cv_date="${CV_TAG:3:10}"
-          if [[ "$(date --date="${cv_date}" +%F 2>/dev/null)" != "${cv_date}" ]]; then
-            echo "Invalid date in CV tag: ${cv_date}" >&2
+          cv_timestamp="${CV_TAG:3:12}"
+          cv_datetime="20${cv_timestamp:0:2}-${cv_timestamp:2:2}-${cv_timestamp:4:2} ${cv_timestamp:6:2}:${cv_timestamp:8:2}:${cv_timestamp:10:2}"
+          if [[ "$(date --date="${cv_datetime}" +%y%m%d%H%M%S 2>/dev/null)" != "${cv_timestamp}" ]]; then
+            echo "Invalid timestamp in CV tag: ${cv_timestamp}" >&2
             exit 1
           fi
 
