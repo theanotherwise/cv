@@ -16,7 +16,7 @@ cv:
 
   sections:
     Profile:
-      - Senior platform and DevOps engineer with experience spanning regulated on-prem systems, hyperscale cloud, Kubernetes, observability, e-commerce performance, developer platforms, and technical training. I design maintainable systems, automate delivery, and solve production problems from infrastructure to application runtime.
+      - Senior platform and DevOps engineer with experience spanning regulated on-prem systems, hyperscale cloud, Kubernetes, observability, e-commerce performance, developer platforms, and technical training. I have authored approximately 140 production postmortems, turning incidents into concrete reliability and operational improvements. I design maintainable systems, automate delivery, and solve production problems from infrastructure to application runtime.
 
     Experience:
       - company: Silky Coders for LPP
