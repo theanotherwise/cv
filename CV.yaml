@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+
+cv:
+  name: CV Build Template
+  headline: RenderCV pipeline validation document
+  sections:
+    Build status:
+      - This temporary document confirms that the version-controlled CV source can be rendered to PDF locally and in GitHub Actions.
+      - Personal details, experience, education, and project history will be added in a later revision.
+
+design:
+  theme: engineeringresumes
+
+locale:
+  language: english
+
+settings:
+  pdf_title: CV build template

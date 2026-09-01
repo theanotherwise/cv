@@ -1,0 +1,57 @@
+name: Build CV
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-cv-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Render PDF
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        with:
+          version: "0.12.8"
+          enable-cache: false
+
+      - name: Install Python
+        run: uv python install 3.13
+
+      - name: Build CV
+        run: |
+          mkdir -p output/pdf
+          uvx \
+            --python 3.13 \
+            --from 'rendercv[full]==2.8' \
+            rendercv render CV.yaml \
+            --pdf-path output/pdf/cv.pdf \
+            --dont-generate-typst \
+            --dont-generate-markdown \
+            --dont-generate-html \
+            --dont-generate-png
+          test -s output/pdf/cv.pdf
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: cv-pdf
+          path: output/pdf/cv.pdf
+          if-no-files-found: error
+          retention-days: 30
