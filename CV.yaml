@@ -77,6 +77,9 @@ cv:
 
     Selected Achievements:
       - Migrated 1,100+ servers from CentOS 7 to Rocky Linux 9 in 1.5 months; built Kubernetes self-service delivery with CI/CD, Helm, and Crossplane; repeatedly recovered failed OKD 3.9/3.11 clusters.
+      - Migrated Logz.io to OpenSearch in three months at 400 TB/week and built parsers for alerts, dashboards, and Logstash pipelines.
+      - Reported and responsibly disclosed a vulnerability enabling full infrastructure takeover of a cryptocurrency company.
+      - Resolved production failures in Redis and RabbitMQ and diagnosed hung PHP processes with strace.
       - Tuned a 200 GB G1GC heap sustaining 10-15 GB/s allocation rates.
       - Identified and responsibly disclosed vulnerabilities capable of causing large-scale corporate data leaks, infrastructure takeover, order replay, and race-condition exploits.
 
@@ -87,6 +90,8 @@ cv:
         details: Terraform, Terragrunt, Ansible, Puppet, Argo CD, Argo Workflows, Helm, Crossplane, GitHub Actions, GitLab CI, Jenkins
       - label: Networking and security
         details: Istio Mesh, Kyverno, Akamai WAF, Cloudflare, PKI, VPN, network policy
+      - label: Gateway setups
+        details: AGW (Azure), ALB (GCP), HAProxy (high throughput), Envoy, APISIX
       - label: Observability and data
         details: OpenSearch, Elasticsearch/ECK, Loki, Alloy, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink
       - label: Distributed systems
