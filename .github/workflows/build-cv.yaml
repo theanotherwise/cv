@@ -94,3 +94,39 @@ jobs:
           path: output/pdf/cv.pdf
           if-no-files-found: error
           retention-days: 30
+
+  push:
+    name: Push
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+
+    steps:
+      - name: Download
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: cv-pdf
+          path: output/pdf
+
+      - name: Push
+        env:
+          API_KEY: ${{ secrets.THEANOTHERWISE_API_KEY }}
+          COMMIT_SHA: ${{ github.sha }}
+          CV_TAG: ${{ github.ref_name }}
+          SOURCE_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          test -n "${API_KEY}"
+          test -s output/pdf/cv.pdf
+          curl \
+            --fail-with-body \
+            --retry 3 \
+            --retry-all-errors \
+            --connect-timeout 10 \
+            --max-time 60 \
+            --header "X-API-Key: ${API_KEY}" \
+            --form "tag=${CV_TAG}" \
+            --form "commit_sha=${COMMIT_SHA}" \
+            --form "source_url=${SOURCE_URL}" \
+            --form "file=@output/pdf/cv.pdf;type=application/pdf" \
+            https://theanotherwise.com/api/v1/cv

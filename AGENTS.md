@@ -7,12 +7,12 @@ This repository stores a version-controlled CV source and the automation require
 ## Structure
 
 - [`CV.yaml`](./CV.yaml) is the stable RenderCV input file. Replace its temporary content when the real CV data is available, but keep the filename stable unless all build references are updated.
-- [`.github/workflows/build-cv.yaml`](./.github/workflows/build-cv.yaml) contains the `Verify` and `Build` jobs. It runs only when a matching CV tag is pushed, and `Build` depends on successful completion of `Verify`.
+- [`.github/workflows/build-cv.yaml`](./.github/workflows/build-cv.yaml) contains the `Verify`, `Build`, and `Push` jobs. It runs only when a matching CV tag is pushed; `Build` depends on `Verify`, and `Push` publishes the generated artifact only after `Build` succeeds.
 - [`output/pdf`](./output/pdf) is the ignored generated-output location.
 
 ## Execution Model
 
-The pushed tag must use `cv-YYMMDDHHMMSS-abcdef0`, where the 12 digits encode the local tag-creation timestamp and the final seven lowercase hexadecimal characters equal the short SHA of the commit referenced by the tag. The `Verify` job checks the tag timestamp and commit suffix. After it succeeds, `Build` installs `uv` and Python 3.14, then uses the exact `rendercv[full]==2.8` package version to render `output/pdf/cv.pdf` and upload it as the `cv-pdf` workflow artifact. The required intermediate Typst source is kept under the ignored `output/pdf` directory and is not uploaded.
+The pushed tag must use `cv-YYMMDDHHMMSS-abcdef0`, where the 12 digits encode the local tag-creation timestamp and the final seven lowercase hexadecimal characters equal the short SHA of the commit referenced by the tag. The `Verify` job checks the tag timestamp and commit suffix. After it succeeds, `Build` installs `uv` and Python 3.14, then uses the exact `rendercv[full]==2.8` package version to render `output/pdf/cv.pdf` and upload it as the `cv-pdf` workflow artifact. The required intermediate Typst source is kept under the ignored `output/pdf` directory and is not uploaded. `Push` downloads `cv-pdf` and posts it to `https://theanotherwise.com/api/v1/cv` with the repository secret `THEANOTHERWISE_API_KEY`, full commit SHA, tag, and workflow-run source URL.
 
 To build the current commit, run `git-release-cv`; it creates and pushes `cv-$(date +%y%m%d%H%M%S)-$(git rev-parse --short=7 HEAD)`. Pushing that tag is the only supported build trigger.
 
