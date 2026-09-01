@@ -26,7 +26,7 @@ cv:
         highlights:
           - Operate 50,000+ cloud vCPUs and 4,000 VMware vCPUs for major European e-commerce brands.
           - Modernized OKD/GKE and built Kubernetes platforms with Argo CD, Helm, Argo Workflows, and Kyverno.
-          - Scaled OpenSearch/ECK to 100k-500k messages/s and tuned gateways, Redis, RabbitMQ, and JVMs for peak traffic.
+          - Scaled OpenSearch/ECK to 100k-500k messages/s; tuned Redis in standalone, master-replica, HA, and cluster modes, RabbitMQ through AMQProxy, and Elasticsearch 6.x for content serving.
 
       - company: EITT and NobleProg
         position: Kubernetes, Cloud, Service Mesh, and Observability Trainer
@@ -35,7 +35,7 @@ cv:
         end_date: present
         highlights:
           - Deliver practical training on Kubernetes, AWS, GCP, service mesh, ELK/OpenSearch, Prometheus, Grafana, Alertmanager, and New Relic.
-          - Turn production experience into workshops focused on reliability, performance, security, and day-to-day operations.
+          - Run workshops focused on platform management, operational best practices, and effective day-to-day operations.
 
       - company: Presemantic
         position: CEO and Founder
