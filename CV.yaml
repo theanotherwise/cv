@@ -5,12 +5,13 @@ cv:
   headline: Senior Platform and DevOps Engineer | Cloud Native, Observability, Performance
   location: Poland
   email: mateusz.adam.katana@gmail.com
-  phone: +48 513 042 792
   website: https://theanotherwise.com
+  custom_connections:
+    - fontawesome_icon: phone
+      placeholder: 0048 513 042 792
+      url: null
   social_networks:
     - network: LinkedIn
-      username: theanotherwise
-    - network: GitHub
       username: theanotherwise
 
   sections:
