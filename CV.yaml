@@ -4,15 +4,19 @@ cv:
   name: Mateusz Adam Katana
   headline: Senior Platform and DevOps Engineer | Cloud Native, Observability, Performance
   location: Poland
-  email: mateusz.adam.katana@gmail.com
-  website: https://theanotherwise.com
   custom_connections:
-    - fontawesome_icon: phone
-      placeholder: 0048 513 042 792
+    - fontawesome_icon: envelope
+      placeholder: "[mateusz.adam.katana@gmail.com](mailto:mateusz.adam.katana@gmail.com)"
       url: null
-  social_networks:
-    - network: LinkedIn
-      username: theanotherwise
+    - fontawesome_icon: globe
+      placeholder: "[theanotherwise.com](https://theanotherwise.com)"
+      url: null
+    - fontawesome_icon: phone
+      placeholder: "[0048 513 042 792](tel:+48513042792)"
+      url: null
+    - fontawesome_icon: linkedin
+      placeholder: "[linkedin.com/in/theanotherwise](https://linkedin.com/in/theanotherwise)"
+      url: null
 
   sections:
     Profile:
@@ -126,6 +130,11 @@ cv:
 
 design:
   theme: engineeringresumes
+  colors:
+    links: rgb(0, 79, 144)
+  links:
+    underline: true
+    show_external_link_icon: false
   page:
     size: a4
     top_margin: 0.55in
