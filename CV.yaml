@@ -56,10 +56,9 @@ cv:
 
       - company: IT Touch - TVN project
         position: IT Consultant
-        location: AWS
         start_date: 2021-01
         end_date: 2021-06
-        summary: Built player.pl infrastructure with AWS VPN, EC2, Auto Scaling Groups, EKS, Aurora PostgreSQL, load balancers, and Cloudflare; managed the estate and New Relic with Terraform and Jenkins CI/CD.
+        summary: Created the New Relic observability platform for player.pl, including dashboards and alerting for AWS load balancers, compute, and EKS, all managed with Terraform and delivered through Jenkins CI/CD. Provided first-line support for infrastructure incidents involving Aurora PostgreSQL, the performance of player.pl's core service, and supporting services.
 
       - company: Applica
         position: DevOps Engineer
