@@ -28,6 +28,7 @@ cv:
           - Operate 50,000+ cloud and 4,000 VMware vCPUs; reduced CPU overcommitment to improve VMware performance.
           - Modernized OKD/GKE, built an Argo Workflows platform, and owned Delinea PAM architecture and rollout.
           - Designed centralized logging for multiple Kubernetes clusters; tuned Redis in standalone, master-replica, HA, and cluster modes, RabbitMQ through AMQProxy, and Elasticsearch 6.x for content serving.
+          - Created SilkyPulse, an AI-agent-based RCA analysis system that evolved into my Opsolving.AI project.
 
       - company: EITT and NobleProg
         position: Kubernetes, Cloud, Service Mesh, and Observability Trainer
@@ -35,7 +36,7 @@ cv:
         start_date: 2022-12
         end_date: present
         highlights:
-          - Deliver practical training on Kubernetes, AWS, GCP, service mesh, ELK/OpenSearch, Prometheus, Grafana, Alertmanager, and New Relic.
+          - Deliver training on Kubernetes, AWS/GCP cloud platforms, logging systems (ELK, OpenSearch), service mesh with Istio, observability (Grafana, Prometheus, Thanos, Alertmanager), and New Relic.
           - Run workshops focused on platform management, operational best practices, and effective day-to-day operations.
 
       - company: Presemantic
