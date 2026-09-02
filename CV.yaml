@@ -27,7 +27,7 @@ cv:
         location: Azure, GCP, on-prem
         start_date: 2022-12
         end_date: present
-        summary: Operate 50,000+ cloud and 4,000 VMware vCPUs; improved VMware performance by reducing excessive VM vCPU allocations, modernized OKD/GKE, automated operations with Ansible, designed an Argo CD and Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, deployed and operated Kafka and the company's highest-throughput Redpanda workload (4-5 TB/day, 50-80k messages/s), tuned Redis/RabbitMQ/Elasticsearch, and created SilkyPulse, the AI-agent RCA system that became Opsolving.AI.
+        summary: Operate 50,000+ cloud and 4,000 VMware vCPUs; improved VMware performance by reducing excessive VM vCPU allocations, modernized OKD/GKE, automated operations with Ansible, designed an Argo CD and Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, deployed and operated Kafka and the company's highest-throughput Redpanda workload (4-5 TB/day, 50-80k messages/s), tuned Redis/RabbitMQ/Elasticsearch, and created SilkyPulse, an AI-agent RCA system using Prometheus/Thanos with recent metrics stored locally and history archived in GCS, which became Opsolving.AI.
 
       - company: EITT and NobleProg
         position: Kubernetes, Cloud, Service Mesh, and Observability Trainer
@@ -39,7 +39,7 @@ cv:
         position: Founder
         start_date: 2025-07
         end_date: present
-        summary: Build Homearo.app, a real-estate portal, and Opsolving.AI for AI analysis and n8n-style process automation. Own Go APIs, Vue 3 user dashboards, Nuxt 4 SSR, and GCP/GKE plus OVH RKE2/Cilium/Longhorn v2 operations with Ansible, Argo CD, Airflow, Loki/Alloy, and Cloudflare; deploy and operate Kafka/Redpanda.
+        summary: Build Homearo.app, a real-estate portal, and Opsolving.AI for AI analysis and n8n-style process automation. Own Go APIs, Vue 3 user dashboards, Nuxt 4 SSR, and GCP/GKE plus OVH RKE2/Cilium/Longhorn v2 operations with Ansible, Argo CD, Airflow, Loki/Alloy, and Cloudflare; deploy and operate Kafka/Redpanda. Collect metrics with Prometheus/Thanos, keeping recent data local and archiving history in GCS.
 
       - company: StoneX
         position: Senior Observability Platform Engineer
