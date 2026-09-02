@@ -89,7 +89,7 @@ cv:
       - label: Delivery and automation
         details: Terraform, Terragrunt, Ansible, Puppet, Argo CD, Argo Workflows, Helm, Crossplane, GitHub Actions, GitLab CI, Jenkins
       - label: Networking and security
-        details: Istio Mesh, Kyverno, Akamai WAF, Cloudflare, PKI, VPN, network policy
+        details: Istio Mesh, Kyverno, Akamai WAF, Cloudflare, VPN
       - label: Gateway setups
         details: AGW (Azure), ALB (GCP), HAProxy (high throughput), Envoy, APISIX
       - label: Observability and data
