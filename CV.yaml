@@ -27,7 +27,7 @@ cv:
         location: Azure, GCP, on-prem
         start_date: 2022-12
         end_date: present
-        summary: Operate 50,000+ cloud and 4,000 VMware vCPUs; improved VMware performance by reducing excessive VM vCPU allocations, modernized OKD/GKE, managed Azure VMSS/VMs and ALB/NLB (Int./Ext.), GCP ALB/NLB (Int./Ext.), MIG/UMIG, Cloud NAT and Cloud Monitoring, instance templates, Packer-built VM images, and VPNs across both clouds; automated operations with Ansible, designed an Argo CD and Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, tuned Redis/RabbitMQ/Elasticsearch, and created SilkyPulse, a Prometheus/Thanos-backed AI RCA system with local hot metrics and GCS archives that became Opsolving.AI.
+        summary: Operate 50,000+ cloud and 4,000 VMware vCPUs; improved VMware performance by reducing excessive VM vCPU allocations, modernized OKD/GKE, managed Azure VMSS/VMs and ALB/NLB (Int./Ext.), GCP ALB/NLB (Int./Ext.), MIG/UMIG, Cloud NAT and Cloud Monitoring, instance templates, Packer-built VM images, and VPNs across both clouds; automated operations with Ansible, designed an Argo CD and Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, tuned Redis/RabbitMQ/Elasticsearch, and built SilkyPulse, a multi-agent system using 15+ specialized AI agents to perform production RCA; it later became Opsolving.AI.
 
       - company: EITT and NobleProg
         position: Kubernetes, Cloud, Service Mesh, and Observability Trainer

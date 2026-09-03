@@ -16,6 +16,8 @@ The pushed tag must use `cv-YYMMDDHHMMSS-abcdef0`, where the 12 digits encode th
 
 To build the current commit, run `git-release-cv`; it creates and pushes `cv-$(date +%y%m%d%H%M%S)-$(git rev-parse --short=7 HEAD)`. Pushing that tag is the only supported build trigger.
 
+Unless the user explicitly asks to keep a CV change local, every change to [`CV.yaml`](./CV.yaml) must finish with a commit, a push of the current branch, creation and push of a new timestamped CV tag, and verification that the production latest-build metadata matches the new tag and commit.
+
 ## Constraints
 
 Keep [`README.md`](./README.md) limited to its project heading and maintain operational documentation here. Do not add local build scripts, commit generated PDF files, add branch, pull-request, manual, or release workflow triggers, introduce secrets, publish releases, or push changes unless the user explicitly requests it. Keep external GitHub Actions pinned to full commit SHAs and update the accompanying version comments when their pins change.
