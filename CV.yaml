@@ -66,7 +66,7 @@ cv:
         location: AWS, Azure, DC
         start_date: 2020-05
         end_date: 2020-12
-        summary: Built EKS and AKS environments for research teams and OKD 3.9/3.11 clusters with Terraform/Ansible at an AI startup later acquired; migrated GitLab from a VM to EKS; ran Elasticsearch/Grafana, Keycloak, PostgreSQL, and 500 TB ZFS; installed an NVIDIA DGX A100 and deployed a Kubespray research cluster whose KVM worker nodes each received one of the physical host's eight GPUs.
+        summary: Built EKS and AKS environments for research teams. Built OKD 3.9/3.11 clusters with Terraform/Ansible at an AI startup later acquired; migrated GitLab from a VM to EKS; ran Elasticsearch/Grafana, Keycloak, PostgreSQL, and 500 TB ZFS; installed an NVIDIA DGX A100 and deployed a Kubespray research cluster whose KVM worker nodes each received one of the physical host's eight GPUs.
 
       - company: IRGiT
         position: Junior Administrator to Senior Specialist
