@@ -20,4 +20,4 @@ Unless the user explicitly asks to keep a CV change local, every change to [`CV.
 
 ## Constraints
 
-Keep [`README.md`](./README.md) limited to its project heading and maintain operational documentation here. Do not add local build scripts, commit generated PDF files, add branch, pull-request, manual, or release workflow triggers, introduce secrets, publish releases, or push changes unless the user explicitly requests it. Keep external GitHub Actions pinned to full commit SHAs and update the accompanying version comments when their pins change.
+Keep [`README.md`](./README.md) limited to its project heading and maintain operational documentation here. Do not add local build scripts, commit generated PDF files, add branch, pull-request, manual, or release workflow triggers, introduce secrets, publish releases, or push changes unless the user explicitly requests it. Keep external GitHub Actions pinned to full commit SHAs and update the accompanying version comments when their pins change. Do not open the generated CV PDF in Codex; the user reviews the published document on the website.
