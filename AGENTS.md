@@ -6,7 +6,7 @@ This repository stores a version-controlled CV source and the automation require
 
 ## Structure
 
-- [`CV.yaml`](./CV.yaml) is the stable, concise RenderCV source for the real curriculum vitae. Prefer compact prose over long bullet lists; keep each experience entry focused on measurable scope and outcomes and limited to roughly five rendered lines on A4. Header contact links use Markdown inside custom connections so RenderCV applies the configured blue link color and underline.
+- [`CV.yaml`](./CV.yaml) is the stable, concise RenderCV source for the real curriculum vitae. Prefer compact prose over long bullet lists; keep each experience entry focused on measurable scope and outcomes and limited to roughly five rendered lines on A4. Header contact links use Markdown inside custom connections so RenderCV applies the configured blue link color and underline. Ongoing role date ranges use the localized `present` label to render only that word in bold.
 - [`.github/workflows/build-cv.yaml`](./.github/workflows/build-cv.yaml) contains the `Verify`, `Build`, and `Push` jobs. It runs only when a matching CV tag is pushed; `Build` depends on `Verify`, and `Push` publishes the generated artifact only after `Build` succeeds.
 - [`output/pdf`](./output/pdf) is the ignored generated-output location.
 
