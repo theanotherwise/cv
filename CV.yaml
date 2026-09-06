@@ -88,9 +88,9 @@ cv:
       - label: Gateway setups
         details: AGW (Azure), ALB (GCP), HAProxy (high throughput), Envoy as Gateway (Istio) without Mesh, APISIX
       - label: Observability and data
-        details: OpenSearch, Elasticsearch/ECK, Loki, Alloy, Fluent Bit, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink
+        details: OpenSearch, Elasticsearch/ECK, Loki, Alloy, Fluent Bit, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink, PostgreSQL, MySQL
       - label: Distributed systems
-        details: Redis, RabbitMQ, Kafka, Redpanda, PostgreSQL, MySQL, JVM performance
+        details: Redis, RabbitMQ, Kafka, Redpanda, JVM performance
 
     Education:
       - institution: Maria Curie-Sklodowska University
