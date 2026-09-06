@@ -72,6 +72,7 @@ cv:
     Selected Achievements:
       - Migrated 1,100+ servers from CentOS 7 to Rocky Linux 9 in 1.5 months; built Kubernetes self-service delivery with CI/CD, Helm, and Crossplane; repeatedly recovered failed OKD 3.9/3.11 clusters.
       - Migrated Logz.io to OpenSearch in three months at 400 TB/week and built parsers for alerts, dashboards, and Logstash pipelines.
+      - Planned multicloud architectures and migrated e-commerce shops GCP → Azure and Azure → GCP in approximately one hour.
       - Reported and responsibly disclosed a vulnerability enabling full infrastructure takeover of a cryptocurrency company.
       - Resolved production failures in Redis and RabbitMQ and diagnosed hung PHP processes from large strace captures.
       - Tuned the Elasticsearch JVM with G1GC for memory allocation rates of 10-15 GB/s, scaling heap from 31 GB to 256 GB.
