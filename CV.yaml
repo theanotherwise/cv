@@ -86,7 +86,7 @@ cv:
       - label: Networking and security
         details: Istio Mesh, Kyverno, Akamai WAF, Cloudflare, VPN
       - label: Gateway setups
-        details: AGW (Azure), ALB (GCP), HAProxy (high throughput), Envoy, APISIX
+        details: AGW (Azure), ALB (GCP), HAProxy (high throughput), Envoy as Gateway (Istio) without Mesh, APISIX
       - label: Observability and data
         details: OpenSearch, Elasticsearch/ECK, Loki, Alloy, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink
       - label: Distributed systems
