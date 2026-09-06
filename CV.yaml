@@ -79,7 +79,7 @@ cv:
 
     Core Skills:
       - label: Cloud and platforms
-        details: GCP, Azure, AWS, VMware, Linux, Kubernetes, OKD, GKE, RKE, Rancher
+        details: Multicloud (GCP/Azure), AWS, VMware, Linux, Kubernetes, OKD, GKE, RKE, Rancher
       - label: Delivery and automation
         details: Terraform, Terragrunt, Ansible, Puppet, Argo CD, Argo Workflows, Helm, Crossplane, GitHub Actions, GitLab CI, Jenkins
       - label: Networking and security
