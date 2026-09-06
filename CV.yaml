@@ -35,7 +35,7 @@ cv:
         end_date: present
         summary: Deliver training on Kubernetes, AWS/GCP, ELK/OpenSearch, Istio, Grafana/Prometheus/Thanos/Alertmanager, and New Relic, focused on platform management and day-to-day operations.
 
-      - company: Presemantic - Homearo.app, Opsolving.AI
+      - company: Homearo.app, Opsolving.AI
         position: Founder
         start_date: 2025-07
         end_date: present
