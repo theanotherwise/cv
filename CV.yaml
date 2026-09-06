@@ -90,7 +90,7 @@ cv:
       - label: Observability and data
         details: OpenSearch, Elasticsearch/ECK, Loki, Alloy, Fluent Bit, Prometheus, Grafana, New Relic, Logstash, Airflow, Flink
       - label: Distributed systems
-        details: Redis, RabbitMQ, Kafka, Redpanda, PostgreSQL, MySQL, Java performance
+        details: Redis, RabbitMQ, Kafka, Redpanda, PostgreSQL, MySQL, JVM performance
 
     Education:
       - institution: Maria Curie-Sklodowska University
