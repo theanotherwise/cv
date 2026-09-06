@@ -49,7 +49,7 @@ cv:
         end_date: 2021-11
         summary: Worked in an eight-developer team; designed an AWS compute farm scaling to 30,000 vCPUs for stock-market risk calculations; ran Flink on OpenShift for Value at Risk across ten major currencies, Java delivery with Jenkins/uDeploy, Airflow, and Prometheus/Grafana observability.
 
-      - company: IT Touch - TVN project
+      - company: IT Touch - TVN project, AWS, New Relic
         position: IT Consultant
         start_date: 2021-01
         end_date: 2021-06
