@@ -27,7 +27,7 @@ cv:
         location: Azure, GCP, on-prem
         start_date: 2022-12
         end_date: present
-        summary: Work in a 14-person DevOps team supporting ~300 developers, introducing engineering best practices, sharing knowledge, and troubleshooting and performance-tuning high-traffic e-commerce shops. Operate 50,000+ cloud and 4,000 VMware vCPUs; improved VMware performance by reducing excessive VM vCPU allocations, modernized OKD/GKE, managed Azure VMSS/VMs and ALB/NLB (Int./Ext.), GCP ALB/NLB (Int./Ext.), MIG/UMIG, Cloud NAT and Cloud Monitoring, instance templates, Packer-built VM images, and VPNs across both clouds; automated operations with Ansible, designed an Argo CD and Argo Workflows platform, owned Delinea PAM, centralized multi-cluster logging, tuned Redis/RabbitMQ/Elasticsearch, and built SilkyPulse, a multi-agent system using 15+ specialized AI agents to perform production RCA.
+        summary: Work in a 14-person DevOps team supporting ~300 developers, introducing engineering best practices, sharing knowledge, and troubleshooting and performance-tuning high-traffic e-commerce shops. Operate 50,000+ cloud and 4,000 VMware vCPUs; improved performance by right-sizing VMs; modernized OKD/GKE; and manage Azure VMSS/VMs and ALB/NLB (Int./Ext.), GCP ALB/NLB (Int./Ext.), MIG/UMIG, Cloud NAT and Cloud Monitoring, instance templates, Packer-built VM images, VPNs, Terraform/Terragrunt IaC, and Ansible. Designed Argo CD and Argo Workflows, own Delinea PAM and centralized multi-cluster ELK Stack logging, operate MySQL (Percona) and PostgreSQL on Kubernetes with Percona Operators, tune Redis/RabbitMQ/Elasticsearch, and built SilkyPulse, a multi-agent system using 15+ specialized AI agents to perform production RCA.
 
       - company: EITT and NobleProg
         position: Kubernetes, Cloud, Service Mesh, and Observability Trainer
@@ -40,7 +40,7 @@ cv:
         location: Azure and on-prem
         start_date: 2021-12
         end_date: 2022-11
-        summary: Led a Logz.io-to-OpenSearch migration at 400 TB per week in three months, wrote a Logz.io-to-Logstash parser, and led two engineers. Deployed Azure AKS, deployed and operated Kafka and the company's highest-throughput Redpanda workload (4-5 TB/day, 50-80k messages/s), automated platform operations with Ansible, and managed Rancher/RKE1, Longhorn v1 (when some failure modes could destroy data), Istio, Prometheus/Grafana, Airflow, and TeamCity/Octopus.
+        summary: Led a Logz.io-to-OpenSearch migration at 400 TB per week in three months, wrote a Logz.io-to-Logstash parser, and led two engineers. Deployed Azure AKS, deployed and operated Kafka and the company's highest-throughput Redpanda workload (4-5 TB/day, 50-80k messages/s), automated platform operations with Terraform/Terragrunt IaC and Ansible, and managed Rancher for multi-cluster RKE1, Longhorn v1 (when some failure modes could destroy data), Istio, Prometheus/Grafana, Airflow, and TeamCity/Octopus.
 
       - company: GS Services - Citi Bank project
         position: DevOps Engineer
@@ -60,14 +60,14 @@ cv:
         location: AWS, Azure, DC
         start_date: 2020-05
         end_date: 2020-12
-        summary: Built EKS and AKS environments for research teams. Built OKD 3.9/3.11 clusters with Terraform/Ansible at an AI startup later acquired; migrated GitLab from a VM to EKS; ran Elasticsearch/Grafana, Keycloak, PostgreSQL, and 500 TB ZFS; installed an NVIDIA DGX A100 and deployed a Kubespray research cluster whose KVM worker nodes each received one of the physical host's eight GPUs.
+        summary: Built EKS and AKS environments for research teams. Built OKD 3.9/3.11 clusters with Terraform/Ansible at an AI startup later acquired; migrated GitLab from a VM to EKS; ran the ELK Stack, Grafana, Keycloak, PostgreSQL, and 500 TB ZFS; installed an NVIDIA DGX A100 and deployed a Kubespray research cluster whose KVM worker nodes each received one of the physical host's eight GPUs.
 
       - company: IRGiT
         position: Junior Administrator to Senior Specialist
         location: On-prem
         start_date: 2017-07
         end_date: 2020-04
-        summary: Advanced through four roles managing RHEL, VMware, Oracle RAC/11c, smaller PostgreSQL/MySQL databases, EJBCA PKI, HPE 3PAR/StoreOnce, HPE Data Protector, Zabbix, and Elasticsearch; automated with Puppet/Ansible/Satellite and built Rails tooling for stock-market risk calculations.
+        summary: Advanced through four roles managing RHEL, VMware, Oracle RAC/11c, smaller PostgreSQL/MySQL databases, EJBCA PKI, physical servers in the DC, HPE 3PAR/StoreOnce storage, HPE Data Protector backups, and observability with Zabbix and the ELK Stack; automated with Red Hat Satellite + Puppet and Ansible; built Rails tooling for stock-market risk calculations.
 
     Selected Achievements:
       - Migrated 1,100+ servers from CentOS 7 to Rocky Linux 9 in 1.5 months; built Kubernetes self-service delivery with CI/CD, Helm, and Crossplane; repeatedly recovered failed OKD 3.9/3.11 clusters.
